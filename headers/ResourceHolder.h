@@ -10,6 +10,8 @@
 
 template<typename Resource, typename Identifier>
 class ResourceHolder {
+private:
+    std::map<Identifier,std::unique_ptr<Resource>> resourceMap;
 
 public:
     void load(Identifier id, const std::string &filename) {
@@ -17,7 +19,7 @@ public:
         if(!resource->loadFromFile(filename)){
             throw std::runtime_error("ResourceHolder::load - Failed to load" + filename);
         }
-        auto inserted = mResourceMap.insert(std::make_pair(id, std::move(resource)));
+        auto inserted = resourceMap.insert(std::make_pair(id, std::move(resource)));
         assert(inserted.second);
     }
 
@@ -27,23 +29,28 @@ public:
         if(!resource->loadFromFile(filename, secondParam)){
             throw std::runtime_error("ResourceHolder::load - Failed to load" + filename);
         }
-        auto inserted = mResourceMap.template insert(std::make_pair(id, std::move(resource)));
+        auto inserted = resourceMap.insert(std::make_pair(id, std::move(resource)));
         assert(inserted.second);
     }
 
     Resource& get(Identifier id) {
-        auto found = mResourceMap.find(id);
+        auto found = resourceMap.find(id);
+        if(found == resourceMap.end){
+            throw std::runtime_error("ResourceHolder::get: could not find id");
+        }
         return *found->second;
     }
 
 
     const Resource& get(Identifier id) const {
-        auto found = mResourceMap.find(id);
+        auto found = resourceMap.find(id);
+        if(found == resourceMap.end){
+            throw std::runtime_error("ResourceHolder::get: could not find id");
+        }
         return *found->second;
     }
 
-private:
-    std::map<Identifier,std::unique_ptr<Resource>> mResourceMap;
+
 
 };
 
