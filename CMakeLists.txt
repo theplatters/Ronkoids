@@ -4,10 +4,9 @@ project(Ronkoids)
 set(CMAKE_CXX_STANDARD 20)
 
 
-add_executable(Ronkoids src/main.cpp headers/Game.h src/Game.cpp)
+add_executable(Ronkoids src/main.cpp headers/Application.h src/Application.cpp headers/ResourceHolder.h headers/ResourceIdentifiers.h headers/pch.h src/pch.cpp src/Command.cpp headers/Command.h src/CommandQueue.cpp headers/CommandQueue.h src/States/StateStack.cpp headers/States/StateStack.h)
 
 include_directories(headers c:/SFML/include)
-
 
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake_modules")
 set(SFML_ROOT c:/SFML)
