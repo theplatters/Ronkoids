@@ -4,6 +4,6 @@
 
 int main() {
     Application g;
-    g.start();
+    g.run();
     return 0;
 }

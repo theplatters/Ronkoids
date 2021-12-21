@@ -5,16 +5,31 @@
 #ifndef RONKOIDS_APPLICATION_H
 #define RONKOIDS_APPLICATION_H
 
+#include <States/StateStack.h>
 #include "pch.h"
 #include "ResourceHolder.h"
 #include "ResourceIdentifiers.h"
 
 class Application {
 private:
+    StateStack states;
+    sf::RenderWindow window;
+    TextureHolder textures;
+    FontHolder fonts;
+
+
 public:
     Application();
 
-    void start();
+    const sf::Time TIME_PER_FRAME = sf::seconds(1.f / 60.f);;
+
+    void run();
+
+    void processInputs();
+
+    void update(const sf::Time dt);
+
+    void render();
 };
 
 

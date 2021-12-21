@@ -43,12 +43,19 @@ private:
 
 public:
 
+    void update(sf::Time dt);
 
     void clearStates();
 
     void pushState(States::ID stateID);
 
     void popState();
+
+    void draw();
+
+    bool isEmpty() const;
+
+    void applyPendingChanges();
 };
 
 
