@@ -53,11 +53,11 @@ public:
 
     void draw();
 
-    bool isEmpty() const;
+    [[nodiscard]] bool isEmpty() const;
 
     void applyPendingChanges();
 
-    void handleEvent(const sf::Event event);
+    void handleEvent(sf::Event event);
 };
 
 
