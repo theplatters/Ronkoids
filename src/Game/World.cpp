@@ -9,5 +9,4 @@ World::World(sf::RenderWindow &window, TextureHolder &textureHolder, FontHolder 
 
 void World::draw() {
     window.setView(worldView);
-    window.draw(sceneGraph);
 }

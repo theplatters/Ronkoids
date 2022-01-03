@@ -6,30 +6,8 @@
 
 #IncludeRegexTransform: 
 
-../headers/Application.h
-States/StateStack.h
--
-pch.h
-../headers/pch.h
-ResourceHolder.h
-../headers/ResourceHolder.h
-ResourceIdentifiers.h
-../headers/ResourceIdentifiers.h
-
 ../headers/CommandQueue.h
 
-../headers/Game/AlienWorld.h
-World.h
-../headers/Game/World.h
-
-../headers/Game/Player.h
-pch.h
-../headers/Game/pch.h
-
-../headers/Game/SpaceshipWorld.h
-World.h
-../headers/Game/World.h
-
 ../headers/Game/World.h
 CommandQueue.h
 -
@@ -43,32 +21,6 @@ pch.h
 ../headers/ResourceIdentifiers.h
 ResourceHolder.h
 ../headers/ResourceHolder.h
-
-../headers/States/GameState.h
-CommandQueue.h
--
-Game/SpaceshipWorld.h
--
-Game/AlienWorld.h
--
-State.h
-../headers/States/State.h
-Game/World.h
-../headers/States/Game/World.h
-Game/Player.h
-../headers/States/Game/Player.h
-
-../headers/States/State.h
-pch.h
-../headers/States/pch.h
-
-../headers/States/StateStack.h
-stack
--
-pch.h
-../headers/States/pch.h
-State.h
-../headers/States/State.h
 
 ../headers/pch.h
 SFML/Graphics.hpp
@@ -768,29 +720,7 @@ SFML/Config.hpp
 
 C:/SFML/include/SFML/Window/WindowStyle.hpp
 
-E:/Dokumente/Programmieren/Ronkoids/src/Application.cpp
-States/GameState.h
--
-Application.h
-E:/Dokumente/Programmieren/Ronkoids/src/Application.h
-pch.h
-E:/Dokumente/Programmieren/Ronkoids/src/pch.h
-
-E:/Dokumente/Programmieren/Ronkoids/src/Game/AlienWorld.cpp
-Game/AlienWorld.h
-E:/Dokumente/Programmieren/Ronkoids/src/Game/Game/AlienWorld.h
-
-E:/Dokumente/Programmieren/Ronkoids/src/Game/SpaceshipWorld.cpp
-Game/SpaceshipWorld.h
-E:/Dokumente/Programmieren/Ronkoids/src/Game/Game/SpaceshipWorld.h
-
 E:/Dokumente/Programmieren/Ronkoids/src/Game/World.cpp
 Game/World.h
 E:/Dokumente/Programmieren/Ronkoids/src/Game/Game/World.h
-
-E:/Dokumente/Programmieren/Ronkoids/src/States/GameState.cpp
-Game/AlienWorld.h
--
-States/GameState.h
-E:/Dokumente/Programmieren/Ronkoids/src/States/States/GameState.h
 
