@@ -40,8 +40,12 @@ private:
 
     std::vector<std::unique_ptr<State>> stack;
     std::vector<PendingChange> pendingChanges;
+    State::Context context;
+
 
 public:
+
+    StateStack(const State::Context &context);
 
     void update(sf::Time dt);
 

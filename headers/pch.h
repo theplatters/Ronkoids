@@ -10,7 +10,7 @@
 #include <vector>
 #include <cassert>
 #include <iostream>
-#include <math.h>
+#include <cmath>
 #include <map>
 #include <sstream>
 #include <functional>

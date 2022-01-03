@@ -8,7 +8,7 @@
 Application::Application() :
         window(sf::VideoMode(640, 480), "ronkoids", sf::Style::Close),
         fonts(),
-        textures() {
+        textures(), states(State::Context(window,textures,fonts)) {
 
 }
 

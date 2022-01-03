@@ -60,6 +60,10 @@ void StateStack::handleEvent(const sf::Event event) {
     }
 }
 
+StateStack::StateStack(const State::Context &context) : context(context) {
+
+}
+
 StateStack::PendingChange::PendingChange(StateStack::Action action, States::ID stateID): action(action), stateID(stateID) {
 
 }
