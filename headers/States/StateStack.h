@@ -41,11 +41,20 @@ private:
     std::vector<std::unique_ptr<State>> stack;
     std::vector<PendingChange> pendingChanges;
     State::Context context;
-
+    std::map<States::ID, std::function<State::Ptr()>> factories;
 
 public:
 
-    StateStack(const State::Context &context);
+    explicit StateStack(const State::Context &context);
+
+    template<class T>
+    void registerState(States::ID id) {
+        factories[id] = [this](){
+            return State::Ptr(new T(*this,context));
+        };
+    }
+
+    State::Ptr createState(States::ID stateID);
 
     void update(sf::Time dt);
 

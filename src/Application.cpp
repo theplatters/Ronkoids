@@ -2,6 +2,7 @@
 // Created by Franz on 20.12.2021.
 //
 
+#include <States/GameState.h>
 #include "Application.h"
 #include "pch.h"
 
@@ -10,6 +11,8 @@ Application::Application() :
         fonts(),
         textures(), states(State::Context(window,textures,fonts)) {
 
+    states.registerState<GameState>(States::Game);
+    states.pushState(States::Game);
 }
 
 void Application::run() {

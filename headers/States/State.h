@@ -12,9 +12,9 @@
 class StateStack;
 
 class State {
-
-
 public:
+    typedef std::unique_ptr<State> Ptr;
+
 
     struct Context {
         Context(sf::RenderWindow &window, TextureHolder &textures, FontHolder &fonts);
@@ -34,7 +34,7 @@ public:
     bool handleEvent(sf::Event event);
 
 private:
-    StateStack& stateStack;
+    StateStack &stateStack;
     Context context;
 };
 

@@ -5,6 +5,7 @@ CMakeFiles/Ronkoids.dir/src/Application.cpp.obj: \
  ../headers/Application.h \
  ../headers/ResourceHolder.h \
  ../headers/ResourceIdentifiers.h \
+ ../headers/States/GameState.h \
  ../headers/States/State.h \
  ../headers/States/StateStack.h \
  ../headers/pch.h \

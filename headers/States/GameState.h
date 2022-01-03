@@ -9,7 +9,10 @@
 #include "State.h"
 
 class GameState : public State{
-    
+public:
+    GameState(StateStack &stateStack, const Context &context);
+
+    void draw() override;
 };
 
 
