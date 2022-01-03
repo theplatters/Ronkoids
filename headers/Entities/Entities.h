@@ -6,7 +6,24 @@
 #define RONKOIDS_ENTITIES_H
 
 
-class Entities {
+#include "SceneNode.h"
+
+class Entities : public SceneNode {
+public:
+    Entities();
+    Entities(int hitpoints);
+
+    const sf::Vector2f &getVelocity() const;
+
+    void setVelocity(const sf::Vector2f velocity);
+
+    int getHitpoints() const;
+
+protected:
+    int hitpoints;
+    sf::Vector2f velocity;
+
+    virtual void updateCurrent(sf::Time dt, CommandQueue &commandQueue);
 
 };
 

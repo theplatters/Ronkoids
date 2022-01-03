@@ -7,35 +7,35 @@
 
 #include "ResourceHolder.h"
 
-namespace Textures{
+namespace Textures {
     enum ID {
 
     };
 };
 
-namespace Category
-{
-    enum Type
-    {
+namespace Category {
+    enum Type {
+        None = 0,
+        SceneAirLayer = 1 << 0,
+        PlayerAircraft = 1 << 1,
+        EnemyAircraft = 1 << 2,
+        AlliedProjectile = 1 << 3,
+        EnemyProjectile = 1 << 4
+    };
+}
+
+namespace Fonts {
+    enum ID {
 
     };
 }
 
-namespace Fonts{
-    enum ID{
 
-    };
-}
-
-
-
-
-
-template <typename Resource, typename Identifier>
+template<typename Resource, typename Identifier>
 class ResourceHolder;
-typedef ResourceHolder<sf::Texture, Textures::ID> TextureHolder;
-typedef ResourceHolder<sf::Font, Fonts::ID>	FontHolder;
 
+typedef ResourceHolder<sf::Texture, Textures::ID> TextureHolder;
+typedef ResourceHolder<sf::Font, Fonts::ID> FontHolder;
 
 
 #endif //TETRIS_RESOURCEIDENTIFIERS_H
