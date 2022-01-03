@@ -4,6 +4,8 @@
 
 #include "States/StateStack.h"
 
+#include <ranges>
+
 void StateStack::clearStates() {
     pendingChanges.emplace_back(Clear);
 }
@@ -35,7 +37,27 @@ void StateStack::update(sf::Time dt) {
 
 //TODO: connect pendingChanges and stack here
 void StateStack::applyPendingChanges() {
+    for(PendingChange change : pendingChanges){
+        switch (change.action) {
+            case Push:
+                //TODO: Implement
 
+                break;
+            case Pop:
+                stack.pop_back();
+                break;
+            case Clear:
+                stack.clear();
+                break;
+        }
+    }
+}
+
+void StateStack::handleEvent(const sf::Event event) {
+    for(auto itr = stack.rbegin(); itr != stack.rend(); ++itr){
+        if (!(*itr)->handleEvent(event))
+            break;
+    }
 }
 
 StateStack::PendingChange::PendingChange(StateStack::Action action, States::ID stateID): action(action), stateID(stateID) {

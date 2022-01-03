@@ -5,21 +5,27 @@
 #include "Application.h"
 #include "pch.h"
 
+Application::Application() :
+        window(sf::VideoMode(640, 480), "ronkoids", sf::Style::Close),
+        fonts(),
+        textures() {
+
+}
 
 void Application::run() {
     sf::Clock clock;
     sf::Time timeSinceLastUpdate = sf::Time::Zero;
 
-    while(window.isOpen()){
+    while (window.isOpen()) {
         sf::Time dt = clock.restart();
         timeSinceLastUpdate += dt;
-        while(timeSinceLastUpdate > TIME_PER_FRAME){
+        while (timeSinceLastUpdate > TIME_PER_FRAME) {
             timeSinceLastUpdate -= TIME_PER_FRAME;
 
             processInputs();
             update(TIME_PER_FRAME);
 
-            if(states.isEmpty())
+            if (states.isEmpty())
                 window.close();
         }
         render();
@@ -27,7 +33,6 @@ void Application::run() {
 
 }
 
-Application::Application() {}
 
 void Application::update(const sf::Time dt) {
     states.update(dt);
@@ -43,5 +48,12 @@ void Application::render() {
 
 //TODO: handle Inputs, must implement Events first
 void Application::processInputs() {
+    sf::Event event{};
 
+    while(window.pollEvent(event)){
+        states.handleEvent(event);
+
+        if(event.type == sf::Event::Closed)
+            window.close();
+    }
 }

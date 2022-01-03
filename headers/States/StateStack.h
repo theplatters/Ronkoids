@@ -56,6 +56,8 @@ public:
     bool isEmpty() const;
 
     void applyPendingChanges();
+
+    void handleEvent(const sf::Event event);
 };
 
 

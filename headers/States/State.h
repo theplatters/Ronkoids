@@ -13,7 +13,9 @@ class State {
 public:
     bool update(sf::Time dt);
 
-    void draw();
+    virtual void draw() = 0;
+
+    bool handleEvent(const sf::Event event);
 };
 
 

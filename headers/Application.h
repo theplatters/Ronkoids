@@ -19,15 +19,15 @@ private:
 
 
 public:
-    Application();
-
     const sf::Time TIME_PER_FRAME = sf::seconds(1.f / 60.f);;
+
+    Application();
 
     void run();
 
     void processInputs();
 
-    void update(const sf::Time dt);
+    void update(sf::Time dt);
 
     void render();
 };

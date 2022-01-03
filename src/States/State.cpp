@@ -12,3 +12,7 @@ bool State::update(sf::Time dt) {
 void State::draw() {
 
 }
+
+bool State::handleEvent(const sf::Event event) {
+    return false;
+}
