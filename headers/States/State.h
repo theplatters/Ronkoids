@@ -30,8 +30,9 @@ public:
     bool update(sf::Time dt);
 
     virtual void draw() = 0;
+    virtual bool update() = 0;
+    virtual bool handleEvent(const sf::Event& event) = 0;
 
-    bool handleEvent(sf::Event event);
 
 private:
     StateStack &stateStack;

@@ -6,13 +6,27 @@
 #define RONKOIDS_GAMESTATE_H
 
 
+#include <CommandQueue.h>
+#include <Game/SpaceshipWorld.h>
+#include <Game/AlienWorld.h>
 #include "State.h"
+#include "Game/World.h"
+#include "Game/Player.h"
 
 class GameState : public State{
+private:
+    AlienWorld alienWorld;
+    SpaceshipWorld spaceshipWorld;
+    Player player;
+    CommandQueue commands;
 public:
     GameState(StateStack &stateStack, const Context &context);
 
     void draw() override;
+
+    bool update() override;
+
+    bool handleEvent(const sf::Event &event) override;
 };
 
 

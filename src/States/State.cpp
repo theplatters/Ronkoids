@@ -8,14 +8,8 @@ bool State::update(sf::Time dt) {
     return false;
 }
 
-//TODO: method body
-void State::draw() {
 
-}
 
-bool State::handleEvent(const sf::Event event) {
-    return false;
-}
 
 State::State(StateStack &stateStack, const State::Context &context) : stateStack(stateStack), context(context) {}
 

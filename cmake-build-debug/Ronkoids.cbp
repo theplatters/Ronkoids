@@ -97,6 +97,24 @@
 		<Unit filename="E:/Dokumente/Programmieren/Ronkoids/headers/CommandQueue.h">
 			<Option target="Ronkoids"/>
 		</Unit>
+		<Unit filename="E:/Dokumente/Programmieren/Ronkoids/headers/Entities/Entities.h">
+			<Option target="Ronkoids"/>
+		</Unit>
+		<Unit filename="E:/Dokumente/Programmieren/Ronkoids/headers/Entities/SceneNode.h">
+			<Option target="Ronkoids"/>
+		</Unit>
+		<Unit filename="E:/Dokumente/Programmieren/Ronkoids/headers/Game/AlienWorld.h">
+			<Option target="Ronkoids"/>
+		</Unit>
+		<Unit filename="E:/Dokumente/Programmieren/Ronkoids/headers/Game/Player.h">
+			<Option target="Ronkoids"/>
+		</Unit>
+		<Unit filename="E:/Dokumente/Programmieren/Ronkoids/headers/Game/SpaceshipWorld.h">
+			<Option target="Ronkoids"/>
+		</Unit>
+		<Unit filename="E:/Dokumente/Programmieren/Ronkoids/headers/Game/World.h">
+			<Option target="Ronkoids"/>
+		</Unit>
 		<Unit filename="E:/Dokumente/Programmieren/Ronkoids/headers/ResourceHolder.h">
 			<Option target="Ronkoids"/>
 		</Unit>
@@ -122,6 +140,24 @@
 			<Option target="Ronkoids"/>
 		</Unit>
 		<Unit filename="E:/Dokumente/Programmieren/Ronkoids/src/CommandQueue.cpp">
+			<Option target="Ronkoids"/>
+		</Unit>
+		<Unit filename="E:/Dokumente/Programmieren/Ronkoids/src/Entities/Entities.cpp">
+			<Option target="Ronkoids"/>
+		</Unit>
+		<Unit filename="E:/Dokumente/Programmieren/Ronkoids/src/Entities/SceneNode.cpp">
+			<Option target="Ronkoids"/>
+		</Unit>
+		<Unit filename="E:/Dokumente/Programmieren/Ronkoids/src/Game/AlienWorld.cpp">
+			<Option target="Ronkoids"/>
+		</Unit>
+		<Unit filename="E:/Dokumente/Programmieren/Ronkoids/src/Game/Player.cpp">
+			<Option target="Ronkoids"/>
+		</Unit>
+		<Unit filename="E:/Dokumente/Programmieren/Ronkoids/src/Game/SpaceshipWorld.cpp">
+			<Option target="Ronkoids"/>
+		</Unit>
+		<Unit filename="E:/Dokumente/Programmieren/Ronkoids/src/Game/World.cpp">
 			<Option target="Ronkoids"/>
 		</Unit>
 		<Unit filename="E:/Dokumente/Programmieren/Ronkoids/src/States/GameState.cpp">

@@ -200,6 +200,150 @@ src/CommandQueue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/CommandQueue.cpp.s
 .PHONY : src/CommandQueue.cpp.s
 
+src/Entities/Entities.obj: src/Entities/Entities.cpp.obj
+.PHONY : src/Entities/Entities.obj
+
+# target to build an object file
+src/Entities/Entities.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Entities/Entities.cpp.obj
+.PHONY : src/Entities/Entities.cpp.obj
+
+src/Entities/Entities.i: src/Entities/Entities.cpp.i
+.PHONY : src/Entities/Entities.i
+
+# target to preprocess a source file
+src/Entities/Entities.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Entities/Entities.cpp.i
+.PHONY : src/Entities/Entities.cpp.i
+
+src/Entities/Entities.s: src/Entities/Entities.cpp.s
+.PHONY : src/Entities/Entities.s
+
+# target to generate assembly for a file
+src/Entities/Entities.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Entities/Entities.cpp.s
+.PHONY : src/Entities/Entities.cpp.s
+
+src/Entities/SceneNode.obj: src/Entities/SceneNode.cpp.obj
+.PHONY : src/Entities/SceneNode.obj
+
+# target to build an object file
+src/Entities/SceneNode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Entities/SceneNode.cpp.obj
+.PHONY : src/Entities/SceneNode.cpp.obj
+
+src/Entities/SceneNode.i: src/Entities/SceneNode.cpp.i
+.PHONY : src/Entities/SceneNode.i
+
+# target to preprocess a source file
+src/Entities/SceneNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Entities/SceneNode.cpp.i
+.PHONY : src/Entities/SceneNode.cpp.i
+
+src/Entities/SceneNode.s: src/Entities/SceneNode.cpp.s
+.PHONY : src/Entities/SceneNode.s
+
+# target to generate assembly for a file
+src/Entities/SceneNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Entities/SceneNode.cpp.s
+.PHONY : src/Entities/SceneNode.cpp.s
+
+src/Game/AlienWorld.obj: src/Game/AlienWorld.cpp.obj
+.PHONY : src/Game/AlienWorld.obj
+
+# target to build an object file
+src/Game/AlienWorld.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Game/AlienWorld.cpp.obj
+.PHONY : src/Game/AlienWorld.cpp.obj
+
+src/Game/AlienWorld.i: src/Game/AlienWorld.cpp.i
+.PHONY : src/Game/AlienWorld.i
+
+# target to preprocess a source file
+src/Game/AlienWorld.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Game/AlienWorld.cpp.i
+.PHONY : src/Game/AlienWorld.cpp.i
+
+src/Game/AlienWorld.s: src/Game/AlienWorld.cpp.s
+.PHONY : src/Game/AlienWorld.s
+
+# target to generate assembly for a file
+src/Game/AlienWorld.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Game/AlienWorld.cpp.s
+.PHONY : src/Game/AlienWorld.cpp.s
+
+src/Game/Player.obj: src/Game/Player.cpp.obj
+.PHONY : src/Game/Player.obj
+
+# target to build an object file
+src/Game/Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Game/Player.cpp.obj
+.PHONY : src/Game/Player.cpp.obj
+
+src/Game/Player.i: src/Game/Player.cpp.i
+.PHONY : src/Game/Player.i
+
+# target to preprocess a source file
+src/Game/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Game/Player.cpp.i
+.PHONY : src/Game/Player.cpp.i
+
+src/Game/Player.s: src/Game/Player.cpp.s
+.PHONY : src/Game/Player.s
+
+# target to generate assembly for a file
+src/Game/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Game/Player.cpp.s
+.PHONY : src/Game/Player.cpp.s
+
+src/Game/SpaceshipWorld.obj: src/Game/SpaceshipWorld.cpp.obj
+.PHONY : src/Game/SpaceshipWorld.obj
+
+# target to build an object file
+src/Game/SpaceshipWorld.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Game/SpaceshipWorld.cpp.obj
+.PHONY : src/Game/SpaceshipWorld.cpp.obj
+
+src/Game/SpaceshipWorld.i: src/Game/SpaceshipWorld.cpp.i
+.PHONY : src/Game/SpaceshipWorld.i
+
+# target to preprocess a source file
+src/Game/SpaceshipWorld.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Game/SpaceshipWorld.cpp.i
+.PHONY : src/Game/SpaceshipWorld.cpp.i
+
+src/Game/SpaceshipWorld.s: src/Game/SpaceshipWorld.cpp.s
+.PHONY : src/Game/SpaceshipWorld.s
+
+# target to generate assembly for a file
+src/Game/SpaceshipWorld.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Game/SpaceshipWorld.cpp.s
+.PHONY : src/Game/SpaceshipWorld.cpp.s
+
+src/Game/World.obj: src/Game/World.cpp.obj
+.PHONY : src/Game/World.obj
+
+# target to build an object file
+src/Game/World.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Game/World.cpp.obj
+.PHONY : src/Game/World.cpp.obj
+
+src/Game/World.i: src/Game/World.cpp.i
+.PHONY : src/Game/World.i
+
+# target to preprocess a source file
+src/Game/World.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Game/World.cpp.i
+.PHONY : src/Game/World.cpp.i
+
+src/Game/World.s: src/Game/World.cpp.s
+.PHONY : src/Game/World.s
+
+# target to generate assembly for a file
+src/Game/World.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ronkoids.dir\build.make CMakeFiles/Ronkoids.dir/src/Game/World.cpp.s
+.PHONY : src/Game/World.cpp.s
+
 src/States/GameState.obj: src/States/GameState.cpp.obj
 .PHONY : src/States/GameState.obj
 
@@ -338,6 +482,24 @@ help:
 	@echo ... src/CommandQueue.obj
 	@echo ... src/CommandQueue.i
 	@echo ... src/CommandQueue.s
+	@echo ... src/Entities/Entities.obj
+	@echo ... src/Entities/Entities.i
+	@echo ... src/Entities/Entities.s
+	@echo ... src/Entities/SceneNode.obj
+	@echo ... src/Entities/SceneNode.i
+	@echo ... src/Entities/SceneNode.s
+	@echo ... src/Game/AlienWorld.obj
+	@echo ... src/Game/AlienWorld.i
+	@echo ... src/Game/AlienWorld.s
+	@echo ... src/Game/Player.obj
+	@echo ... src/Game/Player.i
+	@echo ... src/Game/Player.s
+	@echo ... src/Game/SpaceshipWorld.obj
+	@echo ... src/Game/SpaceshipWorld.i
+	@echo ... src/Game/SpaceshipWorld.s
+	@echo ... src/Game/World.obj
+	@echo ... src/Game/World.i
+	@echo ... src/Game/World.s
 	@echo ... src/States/GameState.obj
 	@echo ... src/States/GameState.i
 	@echo ... src/States/GameState.s

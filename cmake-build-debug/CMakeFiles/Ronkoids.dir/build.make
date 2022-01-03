@@ -177,6 +177,90 @@ CMakeFiles/Ronkoids.dir/src/States/GameState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ronkoids.dir/src/States/GameState.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Dokumente\Programmieren\Ronkoids\src\States\GameState.cpp -o CMakeFiles\Ronkoids.dir\src\States\GameState.cpp.s
 
+CMakeFiles/Ronkoids.dir/src/Game/World.cpp.obj: CMakeFiles/Ronkoids.dir/flags.make
+CMakeFiles/Ronkoids.dir/src/Game/World.cpp.obj: CMakeFiles/Ronkoids.dir/includes_CXX.rsp
+CMakeFiles/Ronkoids.dir/src/Game/World.cpp.obj: ../src/Game/World.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Dokumente\Programmieren\Ronkoids\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Ronkoids.dir/src/Game/World.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ronkoids.dir\src\Game\World.cpp.obj -c E:\Dokumente\Programmieren\Ronkoids\src\Game\World.cpp
+
+CMakeFiles/Ronkoids.dir/src/Game/World.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ronkoids.dir/src/Game/World.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Dokumente\Programmieren\Ronkoids\src\Game\World.cpp > CMakeFiles\Ronkoids.dir\src\Game\World.cpp.i
+
+CMakeFiles/Ronkoids.dir/src/Game/World.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ronkoids.dir/src/Game/World.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Dokumente\Programmieren\Ronkoids\src\Game\World.cpp -o CMakeFiles\Ronkoids.dir\src\Game\World.cpp.s
+
+CMakeFiles/Ronkoids.dir/src/Game/Player.cpp.obj: CMakeFiles/Ronkoids.dir/flags.make
+CMakeFiles/Ronkoids.dir/src/Game/Player.cpp.obj: CMakeFiles/Ronkoids.dir/includes_CXX.rsp
+CMakeFiles/Ronkoids.dir/src/Game/Player.cpp.obj: ../src/Game/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Dokumente\Programmieren\Ronkoids\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Ronkoids.dir/src/Game/Player.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ronkoids.dir\src\Game\Player.cpp.obj -c E:\Dokumente\Programmieren\Ronkoids\src\Game\Player.cpp
+
+CMakeFiles/Ronkoids.dir/src/Game/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ronkoids.dir/src/Game/Player.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Dokumente\Programmieren\Ronkoids\src\Game\Player.cpp > CMakeFiles\Ronkoids.dir\src\Game\Player.cpp.i
+
+CMakeFiles/Ronkoids.dir/src/Game/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ronkoids.dir/src/Game/Player.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Dokumente\Programmieren\Ronkoids\src\Game\Player.cpp -o CMakeFiles\Ronkoids.dir\src\Game\Player.cpp.s
+
+CMakeFiles/Ronkoids.dir/src/Game/SpaceshipWorld.cpp.obj: CMakeFiles/Ronkoids.dir/flags.make
+CMakeFiles/Ronkoids.dir/src/Game/SpaceshipWorld.cpp.obj: CMakeFiles/Ronkoids.dir/includes_CXX.rsp
+CMakeFiles/Ronkoids.dir/src/Game/SpaceshipWorld.cpp.obj: ../src/Game/SpaceshipWorld.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Dokumente\Programmieren\Ronkoids\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Ronkoids.dir/src/Game/SpaceshipWorld.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ronkoids.dir\src\Game\SpaceshipWorld.cpp.obj -c E:\Dokumente\Programmieren\Ronkoids\src\Game\SpaceshipWorld.cpp
+
+CMakeFiles/Ronkoids.dir/src/Game/SpaceshipWorld.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ronkoids.dir/src/Game/SpaceshipWorld.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Dokumente\Programmieren\Ronkoids\src\Game\SpaceshipWorld.cpp > CMakeFiles\Ronkoids.dir\src\Game\SpaceshipWorld.cpp.i
+
+CMakeFiles/Ronkoids.dir/src/Game/SpaceshipWorld.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ronkoids.dir/src/Game/SpaceshipWorld.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Dokumente\Programmieren\Ronkoids\src\Game\SpaceshipWorld.cpp -o CMakeFiles\Ronkoids.dir\src\Game\SpaceshipWorld.cpp.s
+
+CMakeFiles/Ronkoids.dir/src/Game/AlienWorld.cpp.obj: CMakeFiles/Ronkoids.dir/flags.make
+CMakeFiles/Ronkoids.dir/src/Game/AlienWorld.cpp.obj: CMakeFiles/Ronkoids.dir/includes_CXX.rsp
+CMakeFiles/Ronkoids.dir/src/Game/AlienWorld.cpp.obj: ../src/Game/AlienWorld.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Dokumente\Programmieren\Ronkoids\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Ronkoids.dir/src/Game/AlienWorld.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ronkoids.dir\src\Game\AlienWorld.cpp.obj -c E:\Dokumente\Programmieren\Ronkoids\src\Game\AlienWorld.cpp
+
+CMakeFiles/Ronkoids.dir/src/Game/AlienWorld.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ronkoids.dir/src/Game/AlienWorld.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Dokumente\Programmieren\Ronkoids\src\Game\AlienWorld.cpp > CMakeFiles\Ronkoids.dir\src\Game\AlienWorld.cpp.i
+
+CMakeFiles/Ronkoids.dir/src/Game/AlienWorld.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ronkoids.dir/src/Game/AlienWorld.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Dokumente\Programmieren\Ronkoids\src\Game\AlienWorld.cpp -o CMakeFiles\Ronkoids.dir\src\Game\AlienWorld.cpp.s
+
+CMakeFiles/Ronkoids.dir/src/Entities/Entities.cpp.obj: CMakeFiles/Ronkoids.dir/flags.make
+CMakeFiles/Ronkoids.dir/src/Entities/Entities.cpp.obj: CMakeFiles/Ronkoids.dir/includes_CXX.rsp
+CMakeFiles/Ronkoids.dir/src/Entities/Entities.cpp.obj: ../src/Entities/Entities.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Dokumente\Programmieren\Ronkoids\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Ronkoids.dir/src/Entities/Entities.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ronkoids.dir\src\Entities\Entities.cpp.obj -c E:\Dokumente\Programmieren\Ronkoids\src\Entities\Entities.cpp
+
+CMakeFiles/Ronkoids.dir/src/Entities/Entities.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ronkoids.dir/src/Entities/Entities.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Dokumente\Programmieren\Ronkoids\src\Entities\Entities.cpp > CMakeFiles\Ronkoids.dir\src\Entities\Entities.cpp.i
+
+CMakeFiles/Ronkoids.dir/src/Entities/Entities.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ronkoids.dir/src/Entities/Entities.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Dokumente\Programmieren\Ronkoids\src\Entities\Entities.cpp -o CMakeFiles\Ronkoids.dir\src\Entities\Entities.cpp.s
+
+CMakeFiles/Ronkoids.dir/src/Entities/SceneNode.cpp.obj: CMakeFiles/Ronkoids.dir/flags.make
+CMakeFiles/Ronkoids.dir/src/Entities/SceneNode.cpp.obj: CMakeFiles/Ronkoids.dir/includes_CXX.rsp
+CMakeFiles/Ronkoids.dir/src/Entities/SceneNode.cpp.obj: ../src/Entities/SceneNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Dokumente\Programmieren\Ronkoids\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Ronkoids.dir/src/Entities/SceneNode.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ronkoids.dir\src\Entities\SceneNode.cpp.obj -c E:\Dokumente\Programmieren\Ronkoids\src\Entities\SceneNode.cpp
+
+CMakeFiles/Ronkoids.dir/src/Entities/SceneNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ronkoids.dir/src/Entities/SceneNode.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Dokumente\Programmieren\Ronkoids\src\Entities\SceneNode.cpp > CMakeFiles\Ronkoids.dir\src\Entities\SceneNode.cpp.i
+
+CMakeFiles/Ronkoids.dir/src/Entities/SceneNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ronkoids.dir/src/Entities/SceneNode.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Dokumente\Programmieren\Ronkoids\src\Entities\SceneNode.cpp -o CMakeFiles\Ronkoids.dir\src\Entities\SceneNode.cpp.s
+
 # Object files for target Ronkoids
 Ronkoids_OBJECTS = \
 "CMakeFiles/Ronkoids.dir/src/main.cpp.obj" \
@@ -186,7 +270,13 @@ Ronkoids_OBJECTS = \
 "CMakeFiles/Ronkoids.dir/src/CommandQueue.cpp.obj" \
 "CMakeFiles/Ronkoids.dir/src/States/StateStack.cpp.obj" \
 "CMakeFiles/Ronkoids.dir/src/States/State.cpp.obj" \
-"CMakeFiles/Ronkoids.dir/src/States/GameState.cpp.obj"
+"CMakeFiles/Ronkoids.dir/src/States/GameState.cpp.obj" \
+"CMakeFiles/Ronkoids.dir/src/Game/World.cpp.obj" \
+"CMakeFiles/Ronkoids.dir/src/Game/Player.cpp.obj" \
+"CMakeFiles/Ronkoids.dir/src/Game/SpaceshipWorld.cpp.obj" \
+"CMakeFiles/Ronkoids.dir/src/Game/AlienWorld.cpp.obj" \
+"CMakeFiles/Ronkoids.dir/src/Entities/Entities.cpp.obj" \
+"CMakeFiles/Ronkoids.dir/src/Entities/SceneNode.cpp.obj"
 
 # External object files for target Ronkoids
 Ronkoids_EXTERNAL_OBJECTS =
@@ -199,6 +289,12 @@ Ronkoids.exe: CMakeFiles/Ronkoids.dir/src/CommandQueue.cpp.obj
 Ronkoids.exe: CMakeFiles/Ronkoids.dir/src/States/StateStack.cpp.obj
 Ronkoids.exe: CMakeFiles/Ronkoids.dir/src/States/State.cpp.obj
 Ronkoids.exe: CMakeFiles/Ronkoids.dir/src/States/GameState.cpp.obj
+Ronkoids.exe: CMakeFiles/Ronkoids.dir/src/Game/World.cpp.obj
+Ronkoids.exe: CMakeFiles/Ronkoids.dir/src/Game/Player.cpp.obj
+Ronkoids.exe: CMakeFiles/Ronkoids.dir/src/Game/SpaceshipWorld.cpp.obj
+Ronkoids.exe: CMakeFiles/Ronkoids.dir/src/Game/AlienWorld.cpp.obj
+Ronkoids.exe: CMakeFiles/Ronkoids.dir/src/Entities/Entities.cpp.obj
+Ronkoids.exe: CMakeFiles/Ronkoids.dir/src/Entities/SceneNode.cpp.obj
 Ronkoids.exe: CMakeFiles/Ronkoids.dir/build.make
 Ronkoids.exe: C:/SFML/lib/libsfml-system-d.a
 Ronkoids.exe: C:/SFML/lib/libsfml-window-d.a
@@ -206,7 +302,7 @@ Ronkoids.exe: C:/SFML/lib/libsfml-graphics-d.a
 Ronkoids.exe: CMakeFiles/Ronkoids.dir/linklibs.rsp
 Ronkoids.exe: CMakeFiles/Ronkoids.dir/objects1.rsp
 Ronkoids.exe: CMakeFiles/Ronkoids.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Dokumente\Programmieren\Ronkoids\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Ronkoids.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Dokumente\Programmieren\Ronkoids\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Ronkoids.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Ronkoids.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
