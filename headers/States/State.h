@@ -8,14 +8,34 @@
 #define RONKOIDS_STATE_H
 
 #include "pch.h"
+
+class StateStack;
+
 class State {
 
+
 public:
+
+    struct Context {
+        Context(sf::RenderWindow &window, TextureHolder &textures, FontHolder &fonts);
+
+        sf::RenderWindow *window;
+        TextureHolder *textures;
+        FontHolder *fonts;
+    };
+
+    State(StateStack &stateStack, const Context &context);
+
+
     bool update(sf::Time dt);
 
     virtual void draw() = 0;
 
-    bool handleEvent(const sf::Event event);
+    bool handleEvent(sf::Event event);
+
+private:
+    StateStack& stateStack;
+    Context context;
 };
 
 

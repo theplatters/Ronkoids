@@ -16,3 +16,11 @@ void State::draw() {
 bool State::handleEvent(const sf::Event event) {
     return false;
 }
+
+State::State(StateStack &stateStack, const State::Context &context) : stateStack(stateStack), context(context) {}
+
+State::Context::Context(sf::RenderWindow &window, TextureHolder &textures, FontHolder &fonts) : window(&window),
+                                                                                                textures(&textures),
+                                                                                                fonts(&fonts) {
+
+}

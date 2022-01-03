@@ -3,4 +3,5 @@
 #pragma GCC system_header
 #ifdef __cplusplus
 #include "E:/Dokumente/Programmieren/Ronkoids/headers/pch.h"
+#include "E:/Dokumente/Programmieren/Ronkoids/src/pch.cpp"
 #endif // __cplusplus
