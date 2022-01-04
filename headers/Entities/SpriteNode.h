@@ -12,7 +12,7 @@ class SpriteNode : public SceneNode{
 public:
     SpriteNode(const sf::Texture& texture);
 private:
-
+    void drawCurrent(sf::RenderTarget &target, sf::RenderStates states) const override;
     sf::Sprite sprite;
 };
 

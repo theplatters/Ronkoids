@@ -12,6 +12,7 @@ namespace Textures {
         PlayerSpaceship,
         EnemySpaceship,
         BackgroundSpace,
+        BackgroundShip,
         LayerCount
     };
 };

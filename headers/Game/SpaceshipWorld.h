@@ -9,13 +9,14 @@
 #include "World.h"
 
 class SpaceshipWorld : public World{
+private:
+    void buildScene();
 public:
     SpaceshipWorld(sf::RenderWindow &window, TextureHolder &textureHolder, FontHolder &fontHolder,
                    CommandQueue &commands);
 
     void update() override;
 
-    void draw() override;
 
 };
 

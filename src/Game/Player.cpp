@@ -3,3 +3,5 @@
 //
 
 #include "Game/Player.h"
+
+Player::Player() = default;

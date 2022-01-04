@@ -2,8 +2,8 @@
 // Created by Franz on 20.12.2021.
 //
 
-#include <States/GameState.h>
-#include <States/LoadState.h>
+#include <Game/States/GameState.h>
+#include <Game/States/LoadState.h>
 #include "Application.h"
 #include "pch.h"
 

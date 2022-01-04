@@ -27,15 +27,17 @@ protected:
     sf::View worldView;
     TextureHolder &textureHolder;
     FontHolder &fontHolder;
-    sf::FloatRect mWorldBounds;
     CommandQueue &commands;
     std::array<SceneNode *, LayerCount> sceneLayers;
     SceneNode sceneGraph;
-
+    sf::FloatRect worldBounds;
 
 
 public:
     World(sf::RenderWindow &window, TextureHolder &textureHolder, FontHolder &fontHolder, CommandQueue &commands);
+
+    World(sf::RenderWindow &window, const sf::View &worldView, TextureHolder &textureHolder, FontHolder &fontHolder,
+          const sf::FloatRect &worldBounds, CommandQueue &commands);
 
 };
 
