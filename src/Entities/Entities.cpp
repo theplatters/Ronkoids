@@ -16,8 +16,8 @@ const sf::Vector2f &Entities::getVelocity() const {
     return velocity;
 }
 
-void Entities::setVelocity(const sf::Vector2f velocity) {
-    Entities::velocity = velocity;
+void Entities::setVelocity(const sf::Vector2f vel) {
+    Entities::velocity = vel;
 }
 
 int Entities::getHitpoints() const {

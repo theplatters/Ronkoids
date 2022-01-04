@@ -15,7 +15,7 @@ public:
 
     const sf::Vector2f &getVelocity() const;
 
-    void setVelocity(const sf::Vector2f velocity);
+    void setVelocity(const sf::Vector2f vel);
 
     int getHitpoints() const;
 
