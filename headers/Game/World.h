@@ -6,27 +6,32 @@
 #define RONKOIDS_WORLD_H
 
 #include <CommandQueue.h>
+#include <Entities/SceneNode.h>
 #include "pch.h"
 
-class World : private sf::NonCopyable{
+class World : private sf::NonCopyable {
 
 public:
     virtual void update() = 0;
+
     virtual void draw();
 
 protected:
-    sf::RenderWindow& window;
-    sf::View worldView;
-    TextureHolder& textureHolder;
-    FontHolder& fontHolder;
-    sf::FloatRect mWorldBounds;
-    CommandQueue& commands;
-
-    enum Layer{
+    enum Layer {
         Background,
         Air,
         LayerCount
     };
+
+    sf::RenderWindow &window;
+    sf::View worldView;
+    TextureHolder &textureHolder;
+    FontHolder &fontHolder;
+    sf::FloatRect mWorldBounds;
+    CommandQueue &commands;
+    std::array<SceneNode *, LayerCount> sceneLayers;
+    SceneNode sceneGraph;
+
 
 
 public:

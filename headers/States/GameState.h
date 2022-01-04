@@ -19,6 +19,7 @@ private:
     SpaceshipWorld spaceshipWorld;
     Player player;
     CommandQueue commands;
+    TextureHolder textures;
 public:
     GameState(StateStack &stateStack, const Context &context);
 

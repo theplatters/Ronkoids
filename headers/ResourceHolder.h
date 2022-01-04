@@ -20,7 +20,6 @@ public:
             throw std::runtime_error("ResourceHolder::load - Failed to load" + filename);
         }
         auto inserted = resourceMap.insert(std::make_pair(id, std::move(resource)));
-        assert(inserted.second);
     }
 
     template<typename Parameter>
@@ -35,18 +34,12 @@ public:
 
     Resource& get(Identifier id) {
         auto found = resourceMap.find(id);
-        if(found == resourceMap.end){
-            throw std::runtime_error("ResourceHolder::get: could not find id");
-        }
         return *found->second;
     }
 
 
     const Resource& get(Identifier id) const {
         auto found = resourceMap.find(id);
-        if(found == resourceMap.end){
-            throw std::runtime_error("ResourceHolder::get: could not find id");
-        }
         return *found->second;
     }
 

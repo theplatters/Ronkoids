@@ -3,6 +3,7 @@
 //
 
 #include <States/GameState.h>
+#include <States/LoadState.h>
 #include "Application.h"
 #include "pch.h"
 
@@ -12,7 +13,8 @@ Application::Application() :
         textures(), states(State::Context(window,textures,fonts)) {
 
     states.registerState<GameState>(States::Game);
-    states.pushState(States::Game);
+    states.registerState<LoadState>(States::Loading);
+    states.pushState(States::Loading);
 }
 
 void Application::run() {

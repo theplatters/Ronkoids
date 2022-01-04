@@ -8,20 +8,8 @@
 #include <stack>
 #include "pch.h"
 #include "State.h"
+#include "StateIdentifiers.h"
 
-namespace States {
-    enum ID {
-        None,
-        Title,
-        Menu,
-        Game,
-        Loading,
-        Settings,
-        Pause,
-        GameOver,
-        Win
-    };
-}
 
 class StateStack {
 public:

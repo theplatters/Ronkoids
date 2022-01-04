@@ -9,7 +9,10 @@
 
 namespace Textures {
     enum ID {
-
+        PlayerSpaceship,
+        EnemySpaceship,
+        BackgroundSpace,
+        LayerCount
     };
 };
 

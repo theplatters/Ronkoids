@@ -13,7 +13,6 @@ GameState::GameState(StateStack &stateStack, const State::Context &context) :
         spaceshipWorld(*context.window,
                        *context.textures,
                        *context.fonts, commands) {
-
 }
 
 void GameState::draw() {

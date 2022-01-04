@@ -16,6 +16,7 @@ public:
 
     void draw() override;
 
+    void buildScene();
 };
 
 
