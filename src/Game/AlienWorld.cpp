@@ -3,6 +3,7 @@
 //
 
 #include <Entities/SceneNode.h>
+#include <Entities/SpriteNode.h>
 #include "Game/AlienWorld.h"
 
 AlienWorld::AlienWorld(sf::RenderWindow &window, TextureHolder &textureHolder, FontHolder &fontHolder,
@@ -30,5 +31,8 @@ void AlienWorld::buildScene() {
 
     sf::Texture& background = textureHolder.get(Textures::BackgroundSpace);
 
+    std::unique_ptr<SpriteNode> backgroundSprite(new SpriteNode(background));
+    backgroundSprite->setPosition(0,0);
+    sceneLayers[Background]->attachChild(std::move(backgroundSprite));
 }
 

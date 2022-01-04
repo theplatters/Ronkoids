@@ -5,8 +5,11 @@
 #include "Game/World.h"
 
 World::World(sf::RenderWindow &window, TextureHolder &textureHolder, FontHolder &fontHolder, CommandQueue &commands)
-        : window(window), textureHolder(textureHolder), fontHolder(fontHolder), commands(commands), sceneGraph(Category::SceneAirLayer) {}
+        : window(window), textureHolder(textureHolder), fontHolder(fontHolder), commands(commands),
+          sceneGraph(Category::SceneAirLayer),
+          sceneLayers() {}
 
 void World::draw() {
     window.setView(worldView);
+
 }

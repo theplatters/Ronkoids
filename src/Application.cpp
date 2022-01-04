@@ -8,7 +8,7 @@
 #include "pch.h"
 
 Application::Application() :
-        window(sf::VideoMode(640, 480), "ronkoids", sf::Style::Close),
+        window(sf::VideoMode(1280, 720), "ronkoids", sf::Style::Close),
         fonts(),
         textures(), states(State::Context(window,textures,fonts)) {
 
