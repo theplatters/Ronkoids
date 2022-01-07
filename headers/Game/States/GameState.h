@@ -17,9 +17,10 @@ class GameState : public State{
 private:
     AlienWorld alienWorld;
     SpaceshipWorld spaceshipWorld;
-    Player player;
     CommandQueue commands;
     TextureHolder textures;
+
+    //TODO add players
 public:
     GameState(StateStack &stateStack, const Context &context);
 

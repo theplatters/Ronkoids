@@ -2,8 +2,6 @@
 // Created by Franz on 21.12.2021.
 //
 
-//TODO: States should inherit State
-
 #ifndef RONKOIDS_STATE_H
 #define RONKOIDS_STATE_H
 

@@ -51,7 +51,6 @@ void Application::render() {
     window.display();
 }
 
-//TODO: handle Inputs, must implement Events first
 void Application::processInputs() {
     sf::Event event{};
 
