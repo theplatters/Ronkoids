@@ -9,6 +9,9 @@
 #include "Player.h"
 
 class RightPlayer : public Player{
+public:
+    RightPlayer() = default;
+
 protected:
     void initializeKeys() override;
 

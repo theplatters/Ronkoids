@@ -4,12 +4,12 @@ project(Ronkoids)
 set(CMAKE_CXX_STANDARD 20)
 
 
-set(SFML_DIR "SFML/lib/cmake/SFML")
+set(SFML_DIR "lib/SFML/lib/cmake/SFML")
 find_package(SFML 2.5 COMPONENTS system window graphics network audio REQUIRED)
 
 add_executable(Ronkoids
-        src/main.cpp headers/Application.h
-        src/Application.cpp
+        src/main.cpp headers/Game/Application.h
+        src/Game/Application.cpp
         headers/ResourceHolder.h
         headers/ResourceIdentifiers.h
         headers/pch.h
@@ -40,7 +40,11 @@ add_executable(Ronkoids
         headers/Game/States/LoadState.h
         headers/States/StateIdentifiers.h
         src/Entities/SpriteNode.cpp
-        headers/Entities/SpriteNode.h src/Game/LeftPlayer.cpp headers/Game/LeftPlayer.h headers/Game/RightPlayer.cpp headers/Game/RightPlayer.h)
+        headers/Entities/SpriteNode.h
+        src/Game/LeftPlayer.cpp
+        headers/Game/LeftPlayer.h
+        headers/Game/RightPlayer.cpp
+        headers/Game/RightPlayer.h)
 
 target_link_libraries(Ronkoids sfml-system sfml-window sfml-graphics sfml-network sfml-audio)
 

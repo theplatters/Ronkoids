@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Application.h"
+#include "Game/Application.h"
 
 int main() {
     Application g;

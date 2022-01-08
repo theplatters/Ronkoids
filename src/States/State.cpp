@@ -14,7 +14,7 @@ bool State::update(sf::Time dt) {
 
 State::State(StateStack &stateStack, const State::Context &context) : stateStack(&stateStack), context(context) {}
 
-State::~State() {}
+State::~State() = default;
 
 State::Context::Context(sf::RenderWindow &window, TextureHolder &textures, FontHolder &fonts) : window(&window),
                                                                                                 textures(&textures),

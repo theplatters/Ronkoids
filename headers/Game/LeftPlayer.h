@@ -8,7 +8,10 @@
 
 #include "Player.h"
 
-class LeftPlayer : public Player{
+class LeftPlayer : public Player {
+public:
+    LeftPlayer() = default;
+
 protected:
     void initializeKeys() override;
 

@@ -9,6 +9,8 @@
 #include <CommandQueue.h>
 #include <Game/SpaceshipWorld.h>
 #include <Game/AlienWorld.h>
+#include <Game/LeftPlayer.h>
+#include <Game/RightPlayer.h>
 #include "States/State.h"
 #include "Game/World.h"
 #include "Game/Player.h"
@@ -18,8 +20,9 @@ private:
     AlienWorld alienWorld;
     SpaceshipWorld spaceshipWorld;
     CommandQueue commands;
-    TextureHolder textures;
-
+    TextureHolder& textures;
+    LeftPlayer leftPlayer;
+    RightPlayer rightPlayer;
     //TODO add players
 public:
     GameState(StateStack &stateStack, const Context &context);

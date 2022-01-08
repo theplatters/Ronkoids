@@ -6,14 +6,13 @@
 #include "Game/States/GameState.h"
 
 GameState::GameState(StateStack &stateStack, const State::Context &context) :
-        State(stateStack, context), commands(),
+        State(stateStack, context), commands(), textures(*context.textures),
         alienWorld(*context.window,
                    *context.textures,
                    *context.fonts, commands),
         spaceshipWorld(*context.window,
                        *context.textures,
-                       *context.fonts, commands) {
-}
+                       *context.fonts, commands) {}
 
 void GameState::draw() {
     alienWorld.draw();

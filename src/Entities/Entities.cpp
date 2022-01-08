@@ -10,7 +10,7 @@ void Entities::updateCurrent(sf::Time dt, CommandQueue &commandQueue) {
 
 Entities::Entities() : Entities(1) {}
 
-Entities::Entities(int hitpoints) : SceneNode(Category::SceneAirLayer), hitpoints(hitpoints), velocity() {}
+Entities::Entities(int hitpoints) : SceneNode(Category::SceneAirLayer), hitpoints(hitpoints), velocity{} {}
 
 const sf::Vector2f &Entities::getVelocity() const {
     return velocity;

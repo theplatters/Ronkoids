@@ -15,3 +15,4 @@ void RightPlayer::initializeKeys() {
 void RightPlayer::initializeActions() {
 
 }
+
