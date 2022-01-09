@@ -1,5 +1,6 @@
-#include <iostream>
+#include <Lua/LuaWrapper.h>
 #include "Game/Application.h"
+
 
 int main() {
     Application g;
