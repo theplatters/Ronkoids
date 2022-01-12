@@ -6,13 +6,13 @@ set(CMAKE_CXX_STANDARD 20)
 SET(CMAKE_FIND_LIBRARY_PREFIXES "")
 SET(CMAKE_FIND_LIBRARY_SUFFIXES ".lib" ".dll")
 
+
 find_path(LUA_INCLUDE_DIR lua.h)
-find_library(LUA_LIB lua54 REQUIRED)
+find_library(LUA_LIB NAMES lua54 PATHS lib/lua REQUIRED)
 
 add_executable(Ronkoids src/main.cpp headers/Game/Application.h src/Game/Application.cpp headers/ResourceHolder.h headers/ResourceIdentifiers.h headers/pch.h src/pch.cpp src/Command.cpp headers/Command.h src/CommandQueue.cpp headers/CommandQueue.h src/States/StateStack.cpp headers/States/StateStack.h src/States/State.cpp headers/States/State.h src/Game/States/GameState.cpp headers/Game/States/GameState.h src/Game/World.cpp headers/Game/World.h src/Game/Player.cpp headers/Game/Player.h src/Game/SpaceshipWorld.cpp headers/Game/SpaceshipWorld.h src/Game/AlienWorld.cpp headers/Game/AlienWorld.h src/Entities/Entities.cpp headers/Entities/Entities.h src/Entities/SceneNode.cpp headers/Entities/SceneNode.h src/Game/States/LoadState.cpp headers/Game/States/LoadState.h headers/States/StateIdentifiers.h src/Entities/SpriteNode.cpp headers/Entities/SpriteNode.h src/Game/LeftPlayer.cpp headers/Game/LeftPlayer.h headers/Game/RightPlayer.cpp headers/Game/RightPlayer.h src/Lua/LuaWrapper.cpp headers/Lua/LuaWrapper.h)
 
-
-set(SFML_DIR "lib/SFML/lib/cmake/SFML")
+set(SFML_DIR lib/SFML/lib/cmake/SFML)
 
 find_package(SFML 2.5 COMPONENTS system window graphics network audio REQUIRED)
 
