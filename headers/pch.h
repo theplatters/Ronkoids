@@ -16,7 +16,7 @@
 #include <functional>
 #include <algorithm>
 #include <cassert>
-#include <ResourceIdentifiers.h>
+#include "ResourceIdentifiers.h"
 #include <queue>
 
 void centerOrigin(sf::Sprite& sprite);

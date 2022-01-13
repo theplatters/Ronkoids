@@ -7,6 +7,8 @@
 
 //TODO we need to find a way to make this seperate from the engine, so that State.h includes something else
 
+#include "Lua/LuaContext.h"
+
 namespace States {
     enum ID {
         None,

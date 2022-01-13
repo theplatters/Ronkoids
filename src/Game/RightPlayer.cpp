@@ -2,7 +2,7 @@
 // Created by Franz on 05.01.2022.
 //
 
-#include "RightPlayer.h"
+#include "Game/RightPlayer.h"
 
 void RightPlayer::initializeKeys() {
     keyBindings[sf::Keyboard::Left] = MoveLeft;
