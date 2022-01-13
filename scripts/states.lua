@@ -1,0 +1,5 @@
+states = {
+    "GameSate",
+    "MenuSate",
+    "LoadingState"
+}

@@ -7,6 +7,8 @@
 
 #include "ResourceHolder.h"
 
+
+//TODO same as StateIdentifiers, we need to move this to game and make
 namespace Textures {
     enum ID {
         PlayerSpaceship,
