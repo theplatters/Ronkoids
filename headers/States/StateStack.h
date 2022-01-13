@@ -37,8 +37,8 @@ public:
 
     template<class T>
     void registerState(States::ID id) {
-        factories[id] = [this](){
-            return State::Ptr(new T(*this,context));
+        factories[id] = [this]() {
+            return State::Ptr(new T(*this, context));
         };
     }
 

@@ -9,7 +9,7 @@
 AlienWorld::AlienWorld(sf::RenderWindow &window, TextureHolder &textureHolder, FontHolder &fontHolder,
                        CommandQueue &commands)
         : World(window, window.getDefaultView(), textureHolder, fontHolder,
-                {0, 0, worldView.getSize().x, worldView.getSize().y}, commands){
+                {0, 0, window.getDefaultView().getSize().x, window.getDefaultView().getSize().y}, commands){
     worldView.setViewport({0.f,0.f,0.5f,1.f});
     buildScene();
 }

@@ -20,6 +20,9 @@ private:
 public:
     void executeFromFile(std::string filename);
 
+    LuaWrapper(const LuaWrapper&) = delete;
+    LuaWrapper& operator=(const LuaWrapper&) = delete;
+
     LuaWrapper();
 
     virtual ~LuaWrapper();
